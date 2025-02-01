@@ -1,0 +1,67 @@
+
+
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #f0f4f8;
+    padding: 20px;
+  }
+  
+  header {
+    font-size: 2em;
+    color: #333;
+  }
+  
+  .mood-selector {
+    margin-top: 30px;
+  }
+  
+  #mood-slider {
+    width: 80%;
+    height: 30px;
+    border-radius: 15px;
+    -webkit-appearance: none;
+    appearance: none;
+    background: #ddd;
+    transition: background 0.2s ease;
+  }
+  
+  #mood-slider::-webkit-slider-runnable-track {
+    height: 30px;
+    border-radius: 15px;
+  }
+  
+  #mood-slider::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: #fff;
+    border: 2px solid #ccc;
+    cursor: pointer;
+  }
+  
+  .mood-display {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  
+  #mood-emoji {
+    font-size: 3em;
+    margin-right: 20px;
+  }
+  
+  # mood-description {
+    font-size: 1.2em;
+    margin-top: 20px;
+    color: #333;
+    font-style: italic;
+  }
+  
+  footer {
+    margin-top: 50px;
+    color: #777;
+  }
+  

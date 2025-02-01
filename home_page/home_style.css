@@ -1,0 +1,198 @@
+/* General styles */
+body {
+    font-family: 'Roboto', sans-serif; /* Use a modern, professional font */
+    margin: 0;
+    padding: 0;
+    background-color: #f7f8fa; /* Light background color for a calm feel */
+    color: #333; /* Dark text for readability */
+}
+
+.container {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Header Styles */
+header {
+    background-color: #007BFF; /* Professional blue color */
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+    border-bottom: 4px solid #0056b3; /* Darker blue for contrast */
+}
+
+.header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+h1 {
+    margin: 0;
+    font-size: 2.5em;
+    font-weight: 600;
+}
+
+/* Profile Section in Header */
+.profile-header {
+    display: flex;
+    align-items: center;
+}
+
+.profile-img {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-right: 15px;
+}
+
+.profile-info {
+    text-align: left;
+}
+
+.profile-name {
+    font-size: 1.4em;
+    margin: 0;
+    font-weight: bold;
+    color: white;
+}
+
+.profile-job-title {
+    font-size: 1em;
+    color: #f1f1f1;
+}
+
+.edit-profile-btn {
+    background-color: #28a745; /* Green for action */
+    color: white;
+    padding: 5px 15px;
+    border-radius: 25px;
+    text-decoration: none;
+    font-size: 0.9em;
+    transition: background-color 0.3s ease;
+}
+
+.edit-profile-btn:hover {
+    background-color: #218838; /* Darker green on hover */
+}
+
+/* Main content area */
+main {
+    padding: 40px 20px;
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.05); /* Add a subtle shadow around main content */
+    border-radius: 10px;
+    margin-top: 20px;
+}
+
+.intro h2 {
+    font-size: 2em;
+    color: #054d9a;
+    font-weight: 600;
+    margin-bottom: 15px;
+}
+
+.intro p {
+    font-size: 1.1em;
+    color: #555;
+}
+
+.subtopics {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    margin-top: 30px;
+}
+
+.subtopic {
+    flex: 1;
+    min-width: 250px;
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.05); /* Light shadow for depth */
+    transition: transform 0.3s ease-in-out;
+}
+
+.subtopic h3 {
+    font-size: 1.5em;
+    color: #054d9a;
+    margin-top: 0;
+}
+
+.subtopic a {
+    text-decoration: none;
+    color: #054d9a;
+}
+
+.subtopic:hover {
+    transform: translateY(-5px); /* Add a slight lift effect */
+}
+
+/* Footer Styles */
+footer {
+    background-color: #333;
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+    margin-top: 40px;
+    border-top: 4px solid #054d9a;
+}
+
+footer p {
+    margin: 0;
+    font-size: 1.1em;
+}
+
+/* Media Query for responsiveness */
+@media (max-width: 768px) {
+    .header-container {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .profile-header {
+        margin-top: 10px;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .profile-img {
+        width: 80px;
+        height: 80px;
+    }
+
+    .profile-info {
+        margin-top: 10px;
+    }
+
+    .subtopics {
+        flex-direction: column;
+    }
+
+    .subtopic {
+        min-width: 100%;
+    }
+}
+
+/* Styling for the custom dialog box */
+#quoteBox {
+    position: fixed;
+    top: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+    color: rgb(33, 44, 49);
+    padding: 20px;
+    font-size: 18px;
+    text-align: center;
+    width: 350px;
+    font-family: Arial, sans-serif;
+    font-weight: bold;
+    display: none;
+    /* Hidden by default */
+    z-index: 1000;
+    transition: all 0.5s ease-in-out;
+}

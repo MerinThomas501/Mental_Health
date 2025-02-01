@@ -1,0 +1,84 @@
+
+/* Apply background image to the whole page */
+body {
+    background-image: url('bg.jpeg');
+    /* Replace with your image path */
+    background-size: cover;
+    /* Ensure the image covers the entire screen */
+    background-position: center;
+    /* Center the image */
+    background-attachment: fixed;
+    /* Keep the image fixed while scrolling */
+    margin: 0;
+    /* Remove default margin */
+    height: 100vh;
+    /* Ensure full screen height */
+    display: flex;
+    justify-content: center;
+    /* Center horizontally */
+    align-items: flex-start;
+    /* Align the container more towards the top */
+    padding-top: 100px;
+    /* Adjust this value to move the container down */
+}
+
+.login-container {
+    background-color: white;
+    border-radius: 8px;
+    padding: 40px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    text-align: center;
+}
+
+h2 {
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.input-group {
+    margin-bottom: 15px;
+    text-align: left;
+}
+
+.input-group label {
+    font-size: 14px;
+    color: #555;
+}
+
+.input-group input {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 14px;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    background-color: #7abed1;
+    border: none;
+    color: white;
+    font-size: 16px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #3393ae;
+}
+
+.signup {
+    margin-top: 10px;
+}
+
+.signup a {
+    color: #4c89af;
+    text-decoration: none;
+}
+
+.signup a:hover {
+    text-decoration: underline;
+}
