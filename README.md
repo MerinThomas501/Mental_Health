@@ -2,9 +2,9 @@
 ## Basic Details
 Team Name: SYNTAX SQUAD
 Team Members
-Member 1: AGNA ANNET VARGHESE - CET
-Member 2: ASHNA J S -CET
-Member 3: MERIN THOMAS- CET
+- Member 1: AGNA ANNET VARGHESE - CET
+- Member 2: ASHNA J S -CET
+- Member 3: MERIN THOMAS- CET
 Hosted Project Link
 [mention your project hosted project link here]
 
