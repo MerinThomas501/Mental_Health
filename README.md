@@ -1,31 +1,29 @@
-# Mental_Health
-[Project Name] 🎯
-Basic Details
-Team Name: [Name]
+# Mental_Health 🎯
+## Basic Details
+Team Name: SYNTAX SQUAD
 Team Members
-Member 1: [Name] - [College]
-Member 2: [Name] - [College]
-Member 3: [Name] - [College]
+Member 1: AGNA ANNET VARGHESE - CET
+Member 2: ASHNA J S -CET
+Member 3: MERIN THOMAS- CET
 Hosted Project Link
 [mention your project hosted project link here]
 
 Project Description
-[2-3 lines about what your project does]
+A mental health support system which tracks the emotions of an individual 
 
 The Problem statement
-[What ridiculous problem are you solving?]
+Tracking the emotions of an individual.
 
 The Solution
-[How are you solving it? Keep it fun!]
+Providing the current state of an individual and helpline details.
 
 Technical Details
 Technologies/Components Used
 For Software:
 
-[Languages used]
-[Frameworks used]
-[Libraries used]
-[Tools used]
+HTML
+CSS
+JAVASCRIPT
 For Hardware:
 
 [List main components]
