@@ -1,5 +1,5 @@
 [build]
-  publish = "/"
+  publish = "MEN_H"
   command = ""  # No build command needed for static site
 
 [[redirects]]
@@ -9,3 +9,12 @@
 
 [build.environment]
   NODE_VERSION = "16.0.0"
+
+[dev]
+  framework = "#static"
+  publish = "MEN_H"
+
+[[headers]]
+  for = "/*"
+    [headers.values]
+    Cache-Control = "public, max-age=0, must-revalidate"
